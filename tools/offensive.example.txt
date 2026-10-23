@@ -1,0 +1,38 @@
+# Example offensive-word list for The Oracle.
+#
+# One word or phrase per line. Lines starting with '#' are ignored.
+# Append "|N" to set a severity (default 1). Severity is stored in the
+# database for future moderation policies; the current bot deletes every
+# match regardless of severity.
+#
+# This is only a small starter list. Add the words and phrases that make
+# sense for your community. Keep the database itself out of public repos if
+# you consider the list sensitive.
+#
+# Import with:
+#   ./oracle db import tools/offensive.example.txt offensive.db
+
+asshole
+bastard
+bitch
+bullshit
+cunt
+damn
+dick
+douchebag
+fuck
+fucker
+fucking
+motherfucker
+piss
+prick
+pussy
+shit
+shitty
+slut
+twat
+whore
+
+# Common evasion and harmful phrases.
+kys
+kill yourself

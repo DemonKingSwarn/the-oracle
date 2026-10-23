@@ -1,0 +1,12 @@
+# Local configuration contains OAuth secrets.
+config.json
+
+# Build output.
+/oracle
+/oracle.exe
+
+# Runtime state.
+*.log
+*.db-journal
+*.db-wal
+*.db-shm

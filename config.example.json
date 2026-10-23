@@ -1,0 +1,33 @@
+{
+  "youtube": {
+    "api_key": "YOUR_YOUTUBE_DATA_API_KEY",
+    "client_id": "YOUR_OAUTH_CLIENT_ID.apps.googleusercontent.com",
+    "client_secret": "YOUR_OAUTH_CLIENT_SECRET",
+    "refresh_token": "",
+    "live_chat_id": "",
+    "video_id": "",
+    "channel_id": "UC_YOUR_CHANNEL_ID",
+    "bot_channel_id": ""
+  },
+  "bot": {
+    "prefix": "!oracle",
+    "dry_run": false,
+    "reply_cooldown_seconds": 10,
+    "github_url": "https://swarn.space/github",
+    "twitter_url": "https://swarn.space/twitter"
+  },
+  "moderation": {
+    "enabled": true,
+    "database": "offensive.db",
+    "delete_offensive": true,
+    "spam_threshold": 10,
+    "spam_window_seconds": 120,
+    "timeout_seconds": 600,
+    "exempt_moderators": true
+  },
+  "poll": {
+    "idle_seconds": 60,
+    "max_backoff_seconds": 300,
+    "min_interval_ms": 10000
+  }
+}
