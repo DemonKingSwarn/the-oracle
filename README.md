@@ -291,7 +291,3 @@ a stream bot's behavior predictable.
   list is missing.
 - **Build can't find curl/sqlite** — install the system development libraries;
   Odin links `system:curl` and `system:sqlite3`.
-
-## License
-
-This is a personal project. Add a license if you plan to distribute it.
